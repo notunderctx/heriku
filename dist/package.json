@@ -1,0 +1,42 @@
+{
+      "name": "heriku",
+      "version": "0.0.1",
+      "description": "an email sending module",
+      "main": "lib/es5/index.js",
+      "module": "lib/es6/index.js",
+      "sideEffects": false,
+      "repository": {
+            "type": "git",
+            "url": "git+https://github.com/monsterlessonsacademy/utils.git"
+      },
+      "files": [
+            "lib",
+            "CHANGELOG.md",
+            "LICENSE",
+            "package.json",
+            "README.md"
+      ],
+      "keywords": [
+            "javascript",
+            "utils",
+            "utilities",
+            "email",
+            "gpt"
+      ],
+      "author": "algobreigh",
+      "license": "MIT",
+      "bugs": {
+            "url": "https://github.com/monsterlessonsacademy/utils/issues"
+      },
+      "homepage": "https://github.com/monsterlessonsacademy/utils#readme",
+      "dependencies": {
+            "@types/mailparser": "^3.4.3",
+    "@types/nodemailer": "^6.4.13",
+    "mailparser": "^3.6.5",
+    "node-imap": "^0.9.6",
+    "nodemailer": "^6.9.7",
+    "openai": "^4.14.2",
+    "smtp": "^0.1.4",
+    "typescript": "^5.2.2"
+      }
+}
